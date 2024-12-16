@@ -15,6 +15,7 @@ class DataController: ObservableObject {
         container.loadPersistentStores { description, error in
             if let error = error {
                 print("error loading the database \(error.localizedDescription)")
+                print("Test code")
             }
         }
     }
